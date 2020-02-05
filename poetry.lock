@@ -221,6 +221,14 @@ version = "2.1.2"
 
 [[package]]
 category = "main"
+description = "GUI SDK Launched in 2018 Actively developed and supported. Super-simple to create custom GUI's.  Python 2.7 & 3 Support. 200 Demo programs & Cookbook for rapid start. Extensive documentation. Examples using Machine Learning(GUI, OpenCV Integration,  Chatterbot), Rainmeter Style Floating Desktop Widgets, Matplotlib + Pyplot integration, add GUI to command line scripts, PDF & Image Viewer. Great for beginners as well as advanced GUI programmers"
+name = "pysimplegui"
+optional = false
+python-versions = "*"
+version = "4.15.2"
+
+[[package]]
+category = "main"
 description = "Collection of persistent (disk-based) queues"
 name = "queuelib"
 optional = false
@@ -340,7 +348,7 @@ test = ["zope.event"]
 testing = ["coverage", "nose", "zope.event"]
 
 [metadata]
-content-hash = "d57ac110f0a2b198b3721a4dd558489ceb6aa4704f78168762b94e87f00e6b8f"
+content-hash = "da9bdb0f8f53d3f3ad89d05ad38394353cba8304ea3bf3a856cb4bc55a7681c7"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -513,6 +521,10 @@ pyopenssl = [
 ]
 pypydispatcher = [
     {file = "PyPyDispatcher-2.1.2.tar.gz", hash = "sha256:b6bec5dfcff9d2535bca2b23c80eae367b1ac250a645106948d315fcfa9130f2"},
+]
+pysimplegui = [
+    {file = "PySimpleGUI-4.15.2-py3-none-any.whl", hash = "sha256:7b7f49ab61d46e8becd6f78678634540e513047e787766ce4ef97196168c1edb"},
+    {file = "PySimpleGUI-4.15.2.tar.gz", hash = "sha256:91cf79070de893439cedb4d6689fc0d768f30d3b6e289634e5f81cd5caf25ff2"},
 ]
 queuelib = [
     {file = "queuelib-1.5.0-py2.py3-none-any.whl", hash = "sha256:ff43b5b74b9266f8df4232a8f768dc4d67281a271905e2ed4a3689d4d304cd02"},
